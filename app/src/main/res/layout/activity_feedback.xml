@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Feedback"
+    android:background="@drawable/animationlist"
+    android:id="@+id/rootViewFeedback">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnFeedbackBack"
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/backbtn"
+                tools:ignore="SpeakableTextPresentCheck,VisualLintOverlap" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/bg_view"
+                tools:ignore="ImageContrastCheck" />
+
+            <ImageView
+                android:layout_width="251dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="10dp"
+                android:src="@drawable/gglogo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="200dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/feedback"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="172dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="398dp"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="10dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/text_view"
+                tools:ignore="ImageContrastCheck" />
+
+            <TextView
+                android:layout_width="387dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:fontFamily="@font/quicksand"
+                android:text="Gracious Givers - Your Opinion Matters!"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="65dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/thank_you_feedback"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck,VisualLintOverlap" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-100dp">
+
+            <ImageView
+                android:layout_width="375dp"
+                android:layout_height="229dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/text_view"
+                tools:ignore="ImageContrastCheck" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="135dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/how_would_you_best_describe_your_experience"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edDescribeExp"
+                android:layout_width="381dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="165dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/custom_text_field"
+                android:fontFamily="@font/quicksand"
+                android:textAlignment="center"
+                android:textColorHint="#09a7d4"
+                app:helperTextTextColor="#f7fffa"
+                tools:ignore="SpeakableTextPresentCheck">
+
+            </EditText>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="285dp"
+            android:layout_marginTop="-90dp">
+
+            <ImageView
+                android:layout_width="372dp"
+                android:layout_height="119dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="90dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/text_view"
+                tools:ignore="ImageContrastCheck" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/how_can_we_better_your_experience"
+                android:textColor="#FAFAFA"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/edBetterExp"
+                android:layout_width="359dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="125dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/custom_text_field"
+                android:fontFamily="@font/quicksand"
+                android:textAlignment="center"
+                android:textColorHint="#09a7d4"
+                app:helperTextTextColor="#f7fffa"
+                tools:ignore="SpeakableTextPresentCheck">
+
+            </EditText>
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="164dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="220dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/submit"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                tools:ignore="ButtonStyle,TextSizeCheck" />
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

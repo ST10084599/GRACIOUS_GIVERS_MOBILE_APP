@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WhatDoWeDo"
+    android:background="@drawable/animationlist"
+    android:id="@+id/rootViewWhatDoWeDo">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/bg_view"
+                tools:ignore="ImageContrastCheck,ImageContrastCheck" />
+
+            <Button
+                android:id="@+id/btnWhatDoWeDoBack"
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/backbtn"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+
+            <ImageView
+                android:paddingTop="10dp"
+                android:layout_width="251dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/gglogo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="190dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/what_do_we_do"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="391dp"
+                android:layout_height="210dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="260dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/text_view"
+                tools:ignore="ImageContrastCheck" />
+
+            <VideoView
+                android:id="@+id/videoView"
+                android:layout_width="350dp"
+                android:layout_height="197dp"
+                android:layout_marginTop="285dp"
+
+                android:layout_centerHorizontal="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="0.548" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="387dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-10dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/how_are_we_funded_and_how_do_we_afford_doing_what_we_do"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:layout_width="402dp"
+                android:layout_height="700dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="60dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/text_view"
+                tools:ignore="ImageContrastCheck"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="65dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/not_formally_funded"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck,VisualLintOverlap" />
+
+            <TextView
+                android:layout_width="387dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="170dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/how_can_you_donate"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="387dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="210dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/regular_contributions"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="240dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/groceries_and_most_of_our_donors_pay_directly_into_the_organisations_bank_account_weekly_or_monthly"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck,VisualLintOverlap" />
+
+            <TextView
+                android:layout_width="387dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="290dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/event_sponsors"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="320dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/pick_an_initiative_and_contribute_specially_for_that_campaign_we_will_make_sure_your_funds_are_used_appropriately_and_specifically"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck,VisualLintOverlap" />
+
+
+            <TextView
+                android:layout_width="387dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="390dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/yearly_sums"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="420dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/yearly_lump_sum_payments_that_we_draw_on_throughout_the_year"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck,VisualLintOverlap" />
+
+            <TextView
+                android:layout_width="387dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="465dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/ad_hoc_donations"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="500dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/ad_hoc_donations_as_an_when_you_see_fit"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck,VisualLintOverlap" />
+
+            <TextView
+                android:layout_width="387dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="525dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/alternatively"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="555dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/you_can_also_contribute_through_donations_of_grocery_products_blankets_clothing_stationary_or_school_shoes_recommendations_on_other_products_are_also_welcome_contact_us_for_specific_product_donation_and_we_can_share_our_database_of_beneficiaries_so_that_no_donations_go_to_waste"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck,VisualLintOverlap" />
+
+            <TextView
+                android:layout_width="387dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="670dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/please_note"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="700dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/we_do_not_recommend_cash_donations_deposits_through_our_official_bank_account_allows_us_to_track_all_receipts_from_our_generous_donors"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck,VisualLintOverlap" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

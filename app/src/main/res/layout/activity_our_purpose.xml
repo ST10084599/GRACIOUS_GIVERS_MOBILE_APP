@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OurPurpose"
+    android:background="@drawable/animationlist"
+    android:id="@+id/rootViewOurPurpose">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="487dp"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/bg_view"
+                tools:ignore="ImageContrastCheck,ImageContrastCheck" />
+
+            <Button
+                android:id="@+id/btnOurPurposeBack"
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/backbtn"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+
+            <ImageView
+                android:layout_width="251dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="10dp"
+                android:src="@drawable/gglogo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="200dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/our_purpose"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="391dp"
+                android:layout_height="209dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="260dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/text_view"
+                tools:ignore="ImageContrastCheck" />
+
+            <VideoView
+                android:id="@+id/videoView"
+                android:layout_width="350dp"
+                android:layout_height="197dp"
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginTop="265dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="0.548" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="387dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/gracious_givers_regular_initiatives_that_you_can_get_involved_with_as_a_volunteer"
+                android:textAlignment="center"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="386dp"
+                android:layout_height="400dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="60dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/text_view"
+                tools:ignore="ImageContrastCheck"
+                android:layout_marginBottom="10dp"/>
+
+
+            <TextView
+                android:layout_width="387dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:fontFamily="@font/quicksand"
+                android:text="• Coordinating packaging of Grocery hampers for the less  •"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="130dp"
+                android:fontFamily="@font/quicksand"
+                android:text="• When Groceries are received every eight weeks."
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck,VisualLintOverlap" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="155dp"
+                android:fontFamily="@font/quicksand"
+                android:text="• Upcoming distribution to be published on website."
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck,VisualLintOverlap" />
+
+            <TextView
+                android:layout_width="387dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="180dp"
+                android:fontFamily="@font/quicksand"
+                android:text="• Preparation of School lunches •"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="210dp"
+                android:fontFamily="@font/quicksand"
+                android:text="• Every Wednesday at 5am – ( excludes school holidays )"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck,VisualLintOverlap" />
+
+            <TextView
+                android:layout_width="387dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="250dp"
+                android:fontFamily="@font/quicksand"
+                android:text="• Handing out Grocery Hampers to those that need them  •"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="300dp"
+                android:fontFamily="@font/quicksand"
+                android:text="• Every eight weeks and dates to be emailed."
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck,VisualLintOverlap" />
+
+            <TextView
+                android:layout_width="387dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="325dp"
+                android:fontFamily="@font/quicksand"
+                android:text="• Handing out seasonal items when the weather gets too cold  •"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="380dp"
+                android:fontFamily="@font/quicksand"
+                android:text="• Winter months/dates to be published on the email groupchat"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck,VisualLintOverlap" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

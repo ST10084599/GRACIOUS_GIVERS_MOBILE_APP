@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Volunteer"
+    android:background="@drawable/animationlist"
+    android:id="@+id/rootViewVolunteer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/bg_view"
+                tools:ignore="ImageContrastCheck"
+                android:contentDescription="@string/todo" />
+
+            <Button
+                android:id="@+id/btnVolunteerBack"
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/backbtn"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+
+            <ImageView
+                android:paddingTop="10dp"
+                android:layout_width="251dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/gglogo"
+                android:contentDescription="@string/todo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="190dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/volunteer"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="402dp"
+                android:layout_height="93dp"
+                android:layout_marginHorizontal="10dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/text_view"
+                tools:ignore="ImageContrastCheck" />
+
+            <TextView
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/question_always_make_a_difference"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck,VisualLintOverlap" />
+
+            <ImageView
+                android:layout_width="402dp"
+                android:layout_height="93dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="100dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/text_view"
+                tools:ignore="ImageContrastCheck" />
+
+            <TextView
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="105dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/gracious_givers_ethos"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck,VisualLintOverlap" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="200dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/volunteering_benefits"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="392dp"
+                android:layout_height="610dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="250dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/text_view"
+                tools:ignore="ImageContrastCheck" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="255dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/make_a_positive_difference"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="285dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/volunteering_positive_difference"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck,VisualLintOverlap"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="330dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/get_out_and_about_in_the_community"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="365dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/outAndAbout"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck,VisualLintOverlap"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="450dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/strengthen_your_cv"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="487dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/cv_description"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck,VisualLintOverlap"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="610dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/build_and_share_your_skills"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="379dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="645dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/develop_new_skills_by_learning_from_others_put_your_skills_and_experience_to_use_with_our_projects_to_benefit_the_community_and_the_country_on_the_whole"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck,VisualLintOverlap"/>
+
+            <TextView
+                android:layout_width="344dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="715dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/visit_our_what_do_we_do_page_to_fnd_out_more_about_the_volunteering_process"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+            <Button
+                android:id="@+id/btnPurposeVolunteering"
+                android:layout_width="164dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button"
+                android:text="Our Purpose"
+                android:textColor="#fff"
+                android:fontFamily="@font/quicksand"
+                android:textStyle="bold"
+                android:layout_marginTop="800dp"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-80dp">
+
+            <ImageView
+                android:layout_width="375dp"
+                android:layout_height="129dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/text_view"
+                tools:ignore="ImageContrastCheck" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="135dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/please_enter_your_name"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edName"
+                android:layout_width="362dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="165dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/custom_text_field"
+                android:fontFamily="@font/quicksand"
+                android:textAlignment="center"
+                android:textColorHint="#09a7d4"
+                app:helperTextTextColor="#f7fffa"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:autofillHints="">
+
+
+            </EditText>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-100dp">
+
+            <ImageView
+                android:layout_width="375dp"
+                android:layout_height="129dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/text_view"
+                tools:ignore="ImageContrastCheck" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="135dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/please_enter_your_age"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edAge"
+                android:layout_width="362dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="165dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/custom_text_field"
+                android:fontFamily="@font/quicksand"
+                android:textAlignment="center"
+                android:textColorHint="#09a7d4"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:autofillHints=""
+                android:inputType="number">
+
+            </EditText>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-100dp">
+
+            <ImageView
+                android:layout_width="375dp"
+                android:layout_height="129dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/text_view"
+                tools:ignore="ImageContrastCheck" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="135dp"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/please_enter_date"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edDate"
+                android:layout_width="362dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="165dp"
+                android:layout_marginRight="30dp"
+                android:fontFamily="@font/quicksand"
+                android:textAlignment="center"
+                android:textColorHint="#09a7d4"
+                android:background="@drawable/custom_text_field"
+                app:helperTextTextColor="#f7fffa"
+                android:autofillHints="">
+            </EditText>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-100dp">
+
+            <ImageView
+                android:layout_width="375dp"
+                android:layout_height="160dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/text_view"
+                tools:ignore="ImageContrastCheck" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="135dp"
+                android:fontFamily="@font/quicksand"
+                android:text="Why do you want to volunteer?"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <EditText
+                android:id="@+id/edVolunteerInformation"
+                android:layout_width="362dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="165dp"
+                android:layout_marginRight="30dp"
+                android:fontFamily="@font/quicksand"
+                android:textAlignment="center"
+                android:textColorHint="#09a7d4"
+                android:background="@drawable/custom_text_field"
+                app:helperTextTextColor="#f7fffa">
+
+            </EditText>
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="164dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="300dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="@font/quicksand"
+                android:text="@string/submit"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                tools:ignore="ButtonStyle,TextSizeCheck" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
